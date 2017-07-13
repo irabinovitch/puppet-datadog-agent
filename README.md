@@ -6,7 +6,7 @@ Description
 
 A module to:
 
-1. install the [DataDog](http://www.datadoghq.com)  agent
+1. install the [Datadog](http://www.datadoghq.com)  agent
 2. to send reports of puppet runs to the Datadog service [Datadog](http://www.datadoghq.com/).
 
 Requirements
@@ -35,9 +35,9 @@ Once the `datadog` module is installed on your master, there's a tiny bit of con
 that needs to be done.
 
 1. Update the default class parameters with your [API key](https://app.datadoghq.com/account/settings#api)
-   (and confirm the DataDog URL is correct in datadog::params).
+   (and confirm the Datadog URL is correct in datadog::params).
 
-2. Specify the module on any nodes you wish to install the DataDog
+2. Specify the module on any nodes you wish to install the Datadog
    Agent.
 
         include datadog
